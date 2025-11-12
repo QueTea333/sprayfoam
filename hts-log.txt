@@ -1,0 +1,31 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 12 Nov 2025 13:18:12 at https://sprayfoamsouthab.ca/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://sprayfoamsouthab.ca/ -O1 "C:\Users\ToMat\Desktop\Spray Foam\Spray foam" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:18:58	Warning: 	Retry after error -4 (No data (connection closed)) at link https://sprayfoamsouthab.ca/xmlrpc.php?rsd (from https://sprayfoamsouthab.ca/)
+13:18:58	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://sprayfoamsouthab.ca/)
+13:21:06	Warning: 	Retry after error -4 (No data (connection closed)) at link https://sprayfoamsouthab.ca/xmlrpc.php?rsd (from https://sprayfoamsouthab.ca/)
+13:21:07	Warning: 	Moved Permanently for https://sprayfoamsouthab.ca/?p=33
+13:21:07	Warning: 	File has moved from https://sprayfoamsouthab.ca/?p=33 to https://sprayfoamsouthab.ca/about/
+13:21:08	Warning: 	Moved Permanently for https://sprayfoamsouthab.ca/?p=64
+13:21:08	Warning: 	File has moved from https://sprayfoamsouthab.ca/?p=64 to https://sprayfoamsouthab.ca/spray-foam-lethbridge-ab/
+13:21:08	Warning: 	Moved Permanently for https://sprayfoamsouthab.ca/?p=56
+13:21:08	Warning: 	File has moved from https://sprayfoamsouthab.ca/?p=56 to https://sprayfoamsouthab.ca/protective-coatings-lethbridge-ab/
+13:21:08	Warning: 	Moved Permanently for https://sprayfoamsouthab.ca/?p=61
+13:21:08	Warning: 	File has moved from https://sprayfoamsouthab.ca/?p=61 to https://sprayfoamsouthab.ca/spray-foam-fort-macleod-ab/
+13:21:09	Warning: 	Moved Permanently for https://sprayfoamsouthab.ca/?p=62
+13:21:09	Warning: 	File has moved from https://sprayfoamsouthab.ca/?p=62 to https://sprayfoamsouthab.ca/spray-foam-high-river-ab/
+13:21:09	Warning: 	Moved Permanently for https://sprayfoamsouthab.ca/?p=58
+13:21:09	Warning: 	File has moved from https://sprayfoamsouthab.ca/?p=58 to https://sprayfoamsouthab.ca/spray-foam-cardston-ab/
+13:21:10	Warning: 	Moved Permanently for https://sprayfoamsouthab.ca/?p=577
+13:21:10	Warning: 	File has moved from https://sprayfoamsouthab.ca/?p=577 to https://sprayfoamsouthab.ca/spray-foam-fernie-sparwood-bc/
+13:21:10	Warning: 	Moved Permanently for https://sprayfoamsouthab.ca/?p=35
+13:21:10	Warning: 	File has moved from https://sprayfoamsouthab.ca/?p=35 to https://sprayfoamsouthab.ca/contact/
+13:21:10	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://sprayfoamsouthab.ca/xmlrpc.php?rsd (from https://sprayfoamsouthab.ca/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 58 seconds : 159 links scanned, 146 files written (10517579 bytes overall) [7647631 bytes received at 42964 bytes/sec], 3555322 bytes transferred using HTTP compression in 94 files, ratio 17%, 9.3 requests per connection
+(2 errors, 18 warnings, 0 messages)
