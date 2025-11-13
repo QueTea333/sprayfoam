@@ -1,0 +1,129 @@
+/* Location Page Styles */
+
+.location-hero {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    color: var(--color-white);
+    padding: var(--spacing-3xl) 0;
+    text-align: center;
+}
+
+.location-hero h1 {
+    color: var(--color-white);
+    margin-bottom: var(--spacing-md);
+}
+
+.location-hero p {
+    font-size: var(--fs-h4);
+    margin-bottom: var(--spacing-xl);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: var(--spacing-3xl);
+}
+
+.main-content h2 {
+    margin-top: 0;
+}
+
+.benefit-list {
+    list-style: none;
+    padding: 0;
+    margin: var(--spacing-md) 0;
+}
+
+.benefit-list li {
+    padding: var(--spacing-xs) 0;
+    color: var(--color-text);
+}
+
+.services-list {
+    display: grid;
+    gap: var(--spacing-md);
+    margin: var(--spacing-lg) 0;
+}
+
+.service-item {
+    background-color: var(--color-gray);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
+}
+
+.service-item h4 {
+    margin-bottom: var(--spacing-xs);
+}
+
+.service-item p {
+    margin: 0;
+    color: var(--color-text-light);
+}
+
+.cta-box {
+    background-color: var(--color-gray);
+    padding: var(--spacing-xl);
+    border-radius: var(--border-radius);
+    text-align: center;
+    margin-top: var(--spacing-2xl);
+}
+
+.cta-box h3 {
+    margin-bottom: var(--spacing-sm);
+}
+
+.cta-box p {
+    margin-bottom: var(--spacing-lg);
+}
+
+.cta-buttons {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Sidebar */
+.sidebar-box {
+    background-color: var(--color-white);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.sidebar-box.highlight {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.sidebar-box.highlight h3 {
+    color: var(--color-white);
+}
+
+.sidebar-box h3 {
+    margin-top: 0;
+    margin-bottom: var(--spacing-md);
+    font-size: 1.25rem;
+}
+
+.sidebar-box p {
+    margin-bottom: var(--spacing-sm);
+}
+
+.sidebar-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        order: 2;
+    }
+}
