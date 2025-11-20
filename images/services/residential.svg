@@ -1,0 +1,20 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="residentialGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066CC;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#004C99;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#residentialGrad)"/>
+
+  <!-- House illustration -->
+  <path d="M 400 150 L 600 300 L 600 500 L 200 500 L 200 300 Z" fill="#0066CC" opacity="0.2"/>
+  <path d="M 400 150 L 600 300 L 200 300 Z" fill="#0066CC" opacity="0.3"/>
+  <rect x="350" y="380" width="100" height="120" fill="#FF6B35" opacity="0.4"/>
+  <rect x="250" y="340" width="80" height="80" fill="#0066CC" opacity="0.25"/>
+  <rect x="470" y="340" width="80" height="80" fill="#0066CC" opacity="0.25"/>
+
+  <text x="400" y="560" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700" fill="#1A2B3C" text-anchor="middle">
+    Residential Spray Foam
+  </text>
+</svg>

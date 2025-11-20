@@ -1,0 +1,24 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern spray foam logo design -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066CC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#004C99;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: Spray foam representation -->
+  <circle cx="25" cy="30" r="20" fill="url(#logoGradient)" opacity="0.2"/>
+  <circle cx="22" cy="28" r="12" fill="url(#logoGradient)" opacity="0.4"/>
+  <circle cx="20" cy="25" r="8" fill="url(#logoGradient)"/>
+  <circle cx="28" cy="32" r="6" fill="#FF6B35"/>
+  <circle cx="18" cy="35" r="5" fill="#FF6B35" opacity="0.7"/>
+
+  <!-- Text: Innovated SFC -->
+  <text x="55" y="25" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#1A2B3C">
+    Innovated SFC
+  </text>
+  <text x="55" y="42" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" fill="#6B7280">
+    SPRAY FOAM INSULATION
+  </text>
+</svg>
