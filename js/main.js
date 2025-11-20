@@ -89,4 +89,58 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+    // Scroll animations with Intersection Observer
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+
+    // Animate sections on scroll
+    const animatedElements = document.querySelectorAll('.service-card, .testimonial-card, .benefit-item, .faq-item');
+    animatedElements.forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        observer.observe(el);
+    });
+
+    // CTA button tracking
+    const ctaButtons = document.querySelectorAll('.btn-primary, .btn-secondary');
+    ctaButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+            const buttonText = this.textContent.trim();
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'cta_click', {
+                    'event_category': 'Engagement',
+                    'event_label': buttonText
+                });
+            }
+        });
+    });
+
+    // Scroll progress indicator
+    window.addEventListener('scroll', function() {
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = (winScroll / height) * 100;
+
+        // You can add a progress bar element if desired
+        if (typeof gtag !== 'undefined' && scrolled > 75) {
+            // Track deep engagement (scrolled 75% of page)
+            gtag('event', 'scroll_depth', {
+                'event_category': 'Engagement',
+                'event_label': '75% Page Scroll'
+            });
+        }
+    });
 });

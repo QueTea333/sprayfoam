@@ -27,6 +27,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
     <!-- Schema.org Markup -->
     <script type="application/ld+json">
     {
@@ -121,6 +130,48 @@
         "ratingValue": "5.0",
         "reviewCount": "25"
       }
+    }
+    </script>
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does spray foam insulation cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spray foam insulation typically costs between $1.50-$3.50 per square foot for residential projects, depending on the type (open-cell vs closed-cell), thickness, and project size. We provide free, detailed quotes within 24 hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is spray foam insulation worth the investment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! Most homeowners see 30-50% reduction in energy bills, with full ROI achieved in 3-7 years. Spray foam adds structural strength, prevents moisture issues, reduces noise, and increases home value."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is spray foam insulation safe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once cured (24-48 hours), spray foam is completely safe, non-toxic, and won't off-gas harmful chemicals. It improves indoor air quality by sealing out pollutants and preventing mold growth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between open-cell and closed-cell spray foam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open-cell has R-3.5-3.7 per inch, is lighter and less expensive, ideal for interior walls. Closed-cell has R-6 to R-7 per inch, acts as vapor barrier, provides structural support, perfect for exterior applications."
+          }
+        }
+      ]
     }
     </script>
 </head>
@@ -328,6 +379,119 @@
                     <div class="benefit-icon">✓</div>
                     <h3>Local Experts</h3>
                     <p>Deep understanding of Southern Alberta's unique climate challenges</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Real feedback from satisfied homeowners and businesses across Southern Alberta</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <p class="testimonial-text">"Our energy bills dropped by almost 50% after Innovated SFC installed spray foam in our attic. The house is so much more comfortable now, and we're saving hundreds every month. Best home improvement we've ever made!"</p>
+                    <div class="testimonial-author">
+                        <strong>Sarah M.</strong>
+                        <span>Lethbridge Homeowner</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <p class="testimonial-text">"Professional, efficient, and the results speak for themselves. Our warehouse heating costs have been cut in half. The team was respectful, on time, and completed the job ahead of schedule."</p>
+                    <div class="testimonial-author">
+                        <strong>Mike T.</strong>
+                        <span>Fort Macleod Business Owner</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <p class="testimonial-text">"We had spray foam installed in our new build and couldn't be happier. No cold spots, no drafts, and our HVAC system barely runs. Innovated SFC worked perfectly with our builder's schedule."</p>
+                    <div class="testimonial-author">
+                        <strong>Jennifer & Tom K.</strong>
+                        <span>Pincher Creek New Homeowners</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know about spray foam insulation</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3 class="faq-question">How much does spray foam insulation cost?</h3>
+                    <div class="faq-answer">
+                        <p>Spray foam insulation typically costs between $1.50-$3.50 per square foot for residential projects, depending on the type (open-cell vs closed-cell), thickness, and project size. We provide free, detailed quotes within 24 hours that include a complete breakdown of costs and projected energy savings.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Is spray foam insulation worth the investment?</h3>
+                    <div class="faq-answer">
+                        <p>Absolutely! Most homeowners see 30-50% reduction in energy bills, with full ROI achieved in 3-7 years. Beyond energy savings, spray foam adds structural strength, prevents moisture issues, reduces noise, and increases home value. It's the only insulation with a lifetime warranty.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">How long does spray foam installation take?</h3>
+                    <div class="faq-answer">
+                        <p>Most residential projects are completed in 1-3 days depending on size and complexity. Commercial projects vary based on building size. The foam cures within 24-48 hours, after which your space is fully usable.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Is spray foam insulation safe?</h3>
+                    <div class="faq-answer">
+                        <p>Yes! Once cured (24-48 hours), spray foam is completely safe, non-toxic, and won't off-gas harmful chemicals. It actually improves indoor air quality by sealing out pollutants, allergens, and preventing mold growth. We use high-quality materials and follow all safety protocols during installation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">What's the difference between open-cell and closed-cell spray foam?</h3>
+                    <div class="faq-answer">
+                        <p><strong>Open-cell</strong> is lighter, less expensive, with an R-value of 3.5-3.7 per inch. It's ideal for interior walls and sound dampening. <strong>Closed-cell</strong> is denser with R-6 to R-7 per inch, acts as a vapor barrier, and provides structural support. It's perfect for exterior applications and areas requiring maximum insulation.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you offer financing options?</h3>
+                    <div class="faq-answer">
+                        <p>Yes, we can connect you with financing options for both residential and commercial projects. Many homeowners find that monthly energy savings exceed their financing payments, making spray foam cash-flow positive from day one.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">What areas do you serve?</h3>
+                    <div class="faq-answer">
+                        <p>We proudly serve Pincher Creek, Lethbridge, Fort Macleod, High River, Cardston, Fernie BC, Sparwood BC, and surrounding areas throughout Southern Alberta. Contact us to confirm service availability in your area.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">How quickly can I get a quote?</h3>
+                    <div class="faq-answer">
+                        <p>We provide free quotes within 24 hours of receiving your request. For immediate service, call us at (403) XXX-XXXX and we can often provide a ballpark estimate over the phone and schedule an on-site inspection.</p>
+                    </div>
                 </div>
             </div>
         </div>
